@@ -36,30 +36,41 @@ const short temptable_75[][2] PROGMEM = { // Generic Silicon Heat Pad with NTC 1
 //  { (short) ( 209.99 * OVERSAMPLENR ),  165 }, // v=1.025 r=1212.472 res=0.260 degC/count  the search is quicker and get to the meaningful
 //  { (short) ( 230.02 * OVERSAMPLENR ),  160 }, // v=1.123 r=1361.590 res=0.239 degC/count  part of the table sooner.
 //  { (short) ( 251.80 * OVERSAMPLENR ),  155 }, // v=1.230 r=1532.621 res=0.220 degC/count
-    { (short) ( 275.43 * OVERSAMPLENR ),  150 }, // v=1.345 r=1729.283 res=0.203 degC/count
+//  { (short) ( 275.43 * OVERSAMPLENR ),  150 }, // v=1.345 r=1729.283 res=0.203 degC/count
 //  { (short) ( 300.92 * OVERSAMPLENR ),  145 }, // v=1.469 r=1956.004 res=0.189 degC/coun
-    { (short) ( 328.32 * OVERSAMPLENR ),  140 }, // v=1.603 r=2218.081 res=0.176 degC/count
-    { (short) ( 388.65 * OVERSAMPLENR ),  130 }, // v=1.898 r=2874.980 res=0.156 degC/count
-    { (short) ( 421.39 * OVERSAMPLENR ),  125 }, // v=2.058 r=3286.644 res=0.149 degC/count
-    { (short) ( 455.65 * OVERSAMPLENR ),  120 }, // v=2.225 r=3768.002 res=0.143 degC/count
-    { (short) ( 491.17 * OVERSAMPLENR ),  115 }, // v=2.398 r=4332.590 res=0.139 degC/count
-    { (short) ( 527.68 * OVERSAMPLENR ),  110 }, // v=2.577 r=4996.905 res=0.136 degC/count
-    { (short) ( 564.81 * OVERSAMPLENR ),  105 }, // v=2.758 r=5781.120 res=0.134 degC/count
-    { (short) ( 602.19 * OVERSAMPLENR ),  100 }, // v=2.940 r=6710.000 res=0.134 degC/count
-    { (short) ( 676.03 * OVERSAMPLENR ),   90 }, // v=3.301 r=9131.018 res=0.138 degC/count
-    { (short) ( 745.85 * OVERSAMPLENR ),   80 }, // v=3.642 r=12602.693 res=0.150 degC/count
-    { (short) ( 778.31 * OVERSAMPLENR ),   75 }, // v=3.800 r=14889.001 res=0.159 degC/count
-    { (short) ( 808.75 * OVERSAMPLENR ),   70 }, // v=3.949 r=17658.700 res=0.171 degC/count
-    { (short) ( 836.94 * OVERSAMPLENR ),   65 }, // v=4.087 r=21028.040 res=0.185 degC/count
-    { (short) ( 862.74 * OVERSAMPLENR ),   60 }, // v=4.213 r=25144.568 res=0.204 degC/count
-    { (short) ( 886.08 * OVERSAMPLENR ),   55 }, // v=4.327 r=30196.449 res=0.227 degC/count
-    { (short) ( 906.97 * OVERSAMPLENR ),   50 }, // v=4.429 r=36424.838 res=0.255 degC/count
-    { (short) ( 941.65 * OVERSAMPLENR ),   40 }, // v=4.598 r=53745.337 res=0.333 degC/count
-    { (short) ( 967.76 * OVERSAMPLENR ),   30 }, // v=4.725 r=80880.630 res=0.452 degC/count
-    { (short) ( 978.03 * OVERSAMPLENR ),   25 }, // v=4.776 r=100000.000 res=0.535 degC/count
-    { (short) ( 981.68 * OVERSAMPLENR ),   23 }, // v=4.793 r=109024.395 res=0.573 degC/count
-    { (short) ( 983.41 * OVERSAMPLENR ),   22 }, // v=4.802 r=113875.430 res=0.594 degC/count
-    { (short) ( 985.08 * OVERSAMPLENR ),   21 }, // v=4.810 r=118968.955 res=0.616 degC/count
+//  { (short) ( 328.32 * OVERSAMPLENR ),  140 }, // v=1.603 r=2218.081 res=0.176 degC/count
+//  { (short) ( 388.65 * OVERSAMPLENR ),  130 }, // v=1.898 r=2874.980 res=0.156 degC/count
+//  { (short) ( 421.39 * OVERSAMPLENR ),  125 }, // v=2.058 r=3286.644 res=0.149 degC/count
+//  { (short) ( 455.65 * OVERSAMPLENR ),  120 }, // v=2.225 r=3768.002 res=0.143 degC/count
+//  { (short) ( 491.17 * OVERSAMPLENR ),  115 }, // v=2.398 r=4332.590 res=0.139 degC/count
+//  { (short) ( 527.68 * OVERSAMPLENR ),  110 }, // v=2.577 r=4996.905 res=0.136 degC/count
+//  { (short) ( 564.81 * OVERSAMPLENR ),  105 }, // v=2.758 r=5781.120 res=0.134 degC/count
+//  { (short) ( 602.19 * OVERSAMPLENR ),  100 }, // v=2.940 r=6710.000 res=0.134 degC/count
+//  { (short) ( 676.03 * OVERSAMPLENR ),   90 }, // v=3.301 r=9131.018 res=0.138 degC/count
+//  { (short) ( 745.85 * OVERSAMPLENR ),   80 }, // v=3.642 r=12602.693 res=0.150 degC/count
+//  { (short) ( 778.31 * OVERSAMPLENR ),   75 }, // v=3.800 r=14889.001 res=0.159 degC/count
+//  { (short) ( 808.75 * OVERSAMPLENR ),   70 }, // v=3.949 r=17658.700 res=0.171 degC/count
+//  { (short) ( 836.94 * OVERSAMPLENR ),   65 }, // v=4.087 r=21028.040 res=0.185 degC/count
+//  { (short) ( 862.74 * OVERSAMPLENR ),   60 }, // v=4.213 r=25144.568 res=0.204 degC/count
+//  { (short) ( 886.08 * OVERSAMPLENR ),   55 }, // v=4.327 r=30196.449 res=0.227 degC/count
+//  { (short) ( 906.97 * OVERSAMPLENR ),   50 }, // v=4.429 r=36424.838 res=0.255 degC/count
+//  { (short) ( 941.65 * OVERSAMPLENR ),   40 }, // v=4.598 r=53745.337 res=0.333 degC/count
+//  { (short) ( 967.76 * OVERSAMPLENR ),   30 }, // v=4.725 r=80880.630 res=0.452 degC/count
+//  { (short) ( 978.03 * OVERSAMPLENR ),   25 }, // v=4.776 r=100000.000 res=0.535 degC/count
+//  { (short) ( 981.68 * OVERSAMPLENR ),   23 }, // v=4.793 r=109024.395 res=0.573 degC/count
+//  { (short) ( 983.41 * OVERSAMPLENR ),   22 }, // v=4.802 r=113875.430 res=0.594 degC/count
+//  { (short) ( 985.08 * OVERSAMPLENR ),   21 }, // v=4.810 r=118968.955 res=0.616 degC/count
+
+    { (short) ( 242.00 * OVERSAMPLENR ),  133 },
+    { (short) ( 260.00 * OVERSAMPLENR ),  128 },
+    { (short) ( 302.00 * OVERSAMPLENR ),  120 },
+    { (short) ( 360.00 * OVERSAMPLENR ),  117 },
+    { (short) ( 455.00 * OVERSAMPLENR ),  105 },
+    { (short) ( 506.00 * OVERSAMPLENR ),  100 },
+    { (short) ( 746.00 * OVERSAMPLENR ),   72 },
+    { (short) ( 809.00 * OVERSAMPLENR ),   61 },
+
+
     { (short) ( 986.70 * OVERSAMPLENR ),   20 }, // v=4.818 r=124318.354 res=0.638 degC/count
     { (short) ( 993.94 * OVERSAMPLENR ),   15 }, // v=4.853 r=155431.302 res=0.768 degC/count
     { (short) ( 999.96 * OVERSAMPLENR ),   10 }, // v=4.883 r=195480.023 res=0.934 degC/count
